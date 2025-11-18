@@ -1,2 +1,2 @@
-# motion_demos
-Building a few demo animations using the Motion library.
+# Motion Demos
+I built these demos in order to learn the Motion animation library - https://motion.dev/ .
