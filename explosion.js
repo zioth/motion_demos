@@ -47,7 +47,7 @@ export const init = (container) => {
 const explode = (btn) => {
     const rect = btn.getBoundingClientRect();
     const cx = rect.left + rect.width / 2;
-    const cy = rect.top + rect.height / 2;
+    const cy = window.scrollY + rect.top + rect.height / 2;
 
     // Small scale/pop animation for the button itself
     btn.animate([

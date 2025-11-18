@@ -6,7 +6,7 @@
     <title>Animation demos</title>
     <style>
         body {
-            background: #060606;
+            background: #232323;
             color: #d0d0d0;
             font-family: Arial, Helvetica, sans-serif;
             text-align: center;
@@ -21,7 +21,14 @@
             width: 580px;
             margin-left: calc(50% - 290px);
             margin-top: 24px;
+	    align-items: center;
         }
+	@media (max-width: 768px) {
+		.demo-top {
+			width: 256px;
+			margin-left: calc(50% - 145px);
+		}
+	}
         .demo-container {
             background: black;
             perspective: 800px;
