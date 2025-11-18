@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation demos</title>
+    <style>
+        body {
+            background: #060606;
+            color: #d0d0d0;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 24px;
+        }
+        .demo-top {
+            display: flex;
+            flex-flow: row;
+            flex-wrap: wrap;
+            width: 580px;
+            margin-left: calc(50% - 290px);
+            margin-top: 24px;
+        }
+        .demo-container {
+            background: black;
+            perspective: 800px;
+            perspective-origin: 50% 50%;
+            width: 240px;
+            height: 240px;
+            margin: 8px;
+            padding: 16px;
+            box-sizing: content-box;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            flex-shrink: 0;
+            border-radius: 16px;
+        }
+        .tiny-button {
+            padding: 6px 10px;
+            border: none;
+            border-radius: 6px;
+            background-color: rgba(0, 0, 0, 0.8);
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Animation demos</h1>
+    <div>Click to start an animation</div>
+    <script type="module" src="./demos.js"></script>
+</body>
+</html>
